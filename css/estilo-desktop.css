@@ -1,0 +1,137 @@
+body{
+    background-color: aliceblue;
+}
+
+header, main, footer{
+    max-width: 1200px; 
+    margin: auto; 
+    background-color: white;
+}
+
+h2{
+    color: #01BACE;
+}
+
+h3{
+    font-size: 1.5rem;
+}
+
+.btn, .btn-primary{
+    background-color: #01D0DA;
+    border-color: #01D0DA;;
+}
+
+.btn-primary:hover{
+    background-color: #01BACE;
+    border-color: #01BACE;
+}
+
+.btn:active {
+    background-color: #01BACE!important;
+    border-color: #01BACE!important;
+}
+
+
+/*     MENU DE NAVEGACION      */
+.bg-body-tertiary {
+    background-color: white!important;
+}
+
+.nav-link:focus, .nav-link:hover{
+    color: white;
+}
+
+nav li a:hover {
+    background: #01D0DA;
+    color: white;
+}
+
+
+/*     PARRAFOS      */
+.parrafos{
+    background-color: #FFFFE5;
+    border: 1px solid beige;
+    border-radius: 20px;
+}
+
+.parrafos h2{
+    border-bottom: 2px solid;
+    padding-bottom: 20px;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: aliceblue;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+}
+
+
+/*     UNITE      */
+.unite{
+    display: flex;
+    background-color: #384c67;
+    background-image: url(../img/icepeace-img-join.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    max-width: 100%;
+}
+
+
+/*     CONTACTO      */
+.form input{
+    border: none;
+    border-bottom: 1px solid #01D0DA;
+    background-color: aliceblue;
+}
+
+.form textarea{
+    border: none;
+    border-bottom: 1px solid #01D0DA;
+    background-color: aliceblue;
+}
+
+
+.form button[type="submit"]:active{
+    color: white; 
+    background-color: #01BACE;
+    border: none;
+}
+
+
+/*     FOOTER      */
+footer{
+    background-color: #384c67;
+}
+
+footer ul{
+    list-style-type: none;
+}
+
+.list-group-item {
+    background-color: transparent;
+    color: white;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover{
+    color: #01D0DA;
+    font-weight: 700;
+    font-style: italic;
+}
+
+
+.copyright{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 1%;
+    font-size: small;
+    letter-spacing: 0.1em;
+    margin: 3% 0 0 0;
+}
